@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Newport Maeve Chronicles - A dark fantasy prequel featuring Miroslav Dion, an immortal vampire strategist. Explore the world of shadows, power, and ancient secrets.">
+    <meta name="keywords" content="Newport Maeve, fantasy, vampire, prequel, Miroslav Dion, dark fantasy, chronicles, audiobook">
+    <meta name="author" content="Dean Jordanov">
+    <meta name="theme-color" content="#0a0a0a">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://newport-maeve.manus.space/">
+    <meta property="og:title" content="Newport Maeve Chronicles - Dark Fantasy Prequel">
+    <meta property="og:description" content="A tale of immortality, power, and hidden networks. Meet Miroslav Dion and the world of Newport Maeve.">
+    <meta property="og:image" content="https://newport-maeve.manus.space/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://newport-maeve.manus.space/">
+    <meta property="twitter:title" content="Newport Maeve Chronicles - Dark Fantasy Prequel">
+    <meta property="twitter:description" content="A tale of immortality, power, and hidden networks. Meet Miroslav Dion and the world of Newport Maeve.">
+    <meta property="twitter:image" content="https://newport-maeve.manus.space/og-image.jpg">
+    
+    <title>Newport Maeve Chronicles - Dark Fantasy Prequel | Miroslav Dion Story</title>
+    <link rel="canonical" href="https://newport-maeve.manus.space/">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Lora', serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 50%, #0a0a0a 100%);
+            color: #e8e8e8;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: #d4af37;
+            text-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #d4af37;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            color: #c9a961;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: #c0c0c0;
+        }
+
+        a {
+            color: #d4af37;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            border-bottom: 1px solid transparent;
+        }
+
+        a:hover {
+            color: #ffd700;
+            border-bottom: 1px solid #d4af37;
+        }
+
+        /* Header / Navigation */
+        header {
+            background: rgba(10, 10, 10, 0.95);
+            border-bottom: 2px solid #d4af37;
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .logo {
+            font-family: 'Cinzel', serif;
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #d4af37;
+            text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: all 0.3s ease;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            padding: 4rem 2rem;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('hero-bg.jpg') center/cover;
+            opacity: 0.3;
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 900px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            color: #b8860b;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 1rem 2.5rem;
+            font-size: 1rem;
+            font-family: 'Cinzel', serif;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border: 2px solid #d4af37;
+            background: transparent;
+            color: #d4af37;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: #d4af37;
+            color: #0a0a0a;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+        }
+
+        .btn-primary {
+            background: #d4af37;
+            color: #0a0a0a;
+        }
+
+        .btn-primary:hover {
+            background: #ffd700;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Sections */
+        section {
+            padding: 6rem 2rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        /* World Section */
+        .world-section {
+            background: linear-gradient(180deg, rgba(10, 10, 10, 0.9) 0%, rgba(26, 10, 46, 0.9) 100%);
+        }
+
+        .world-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .world-card {
+            background: rgba(20, 20, 40, 0.8);
+            border: 1px solid #d4af37;
+            padding: 2rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .world-card:hover {
+            background: rgba(30, 20, 50, 0.9);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .world-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        /* Character Section */
+        .character-section {
+            background: linear-gradient(180deg, rgba(26, 10, 46, 0.9) 0%, rgba(10, 10, 10, 0.9) 100%);
+        }
+
+        .main-character {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .character-image {
+            background: rgba(20, 20, 40, 0.8);
+            border: 2px solid #d4af37;
+            padding: 1rem;
+            border-radius: 4px;
+            aspect-ratio: 3/4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            color: #888;
+            min-height: 400px;
+        }
+
+        .character-info h3 {
+            margin-bottom: 1rem;
+        }
+
+        .character-traits {
+            background: rgba(20, 20, 40, 0.6);
+            border-left: 3px solid #d4af37;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .character-traits strong {
+            color: #d4af37;
+        }
+
+        /* Supporting Characters */
+        .supporting-characters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .character-card {
+            background: rgba(20, 20, 40, 0.8);
+            border: 1px solid #d4af37;
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .character-card:hover {
+            background: rgba(30, 20, 50, 0.9);
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+        }
+
+        .character-card h4 {
+            color: #d4af37;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .character-role {
+            color: #b8860b;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .character-card a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid #d4af37;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+
+        .character-card a:hover {
+            background: #d4af37;
+            color: #0a0a0a;
+        }
+
+        /* Map Section */
+        .map-section {
+            background: linear-gradient(180deg, rgba(10, 10, 10, 0.9) 0%, rgba(26, 10, 46, 0.9) 100%);
+        }
+
+        .map-container {
+            background: rgba(20, 20, 40, 0.8);
+            border: 2px solid #d4af37;
+            padding: 2rem;
+            border-radius: 4px;
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            color: #888;
+            min-height: 500px;
+        }
+
+        /* Community Links */
+        .community-section {
+            background: linear-gradient(180deg, rgba(26, 10, 46, 0.9) 0%, rgba(10, 10, 10, 0.9) 100%);
+        }
+
+        .community-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .community-card {
+            background: rgba(20, 20, 40, 0.8);
+            border: 2px solid #d4af37;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .community-card:hover {
+            background: rgba(30, 20, 50, 0.9);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+            transform: translateY(-5px);
+        }
+
+        .community-card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .community-card p {
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .community-card a {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #d4af37;
+            color: #0a0a0a;
+            border-radius: 3px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .community-card a:hover {
+            background: #ffd700;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(10, 10, 10, 0.95);
+            border-top: 2px solid #d4af37;
+            padding: 3rem 2rem;
+            text-align: center;
+            color: #888;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .hero {
+                min-height: 80vh;
+            }
+
+            .main-character {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                gap: 1rem;
+                font-size: 0.85rem;
+            }
+
+            section {
+                padding: 4rem 1rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">NEWPORT MAEVE</div>
+            <ul>
+                <li><a href="#world">The World</a></li>
+                <li><a href="#character">Miroslav Dion</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Newport Maeve Chronicles</h1>
+            <p class="hero-subtitle">A Glimpse of Centuries Past</p>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                Dive into a dark fantasy prequel featuring Miroslav Dion, an immortal vampire strategist navigating centuries of power, secrets, and divine intrigue.
+            </p>
+            <div class="cta-buttons">
+                <a href="https://youtu.be/gg5DZfQgrho?si=jj8f4mWiXhvvfzdV" class="btn btn-primary" target="_blank">Listen to the Audio Story</a>
+                <a href="https://www.facebook.com/NewportMaeveChronicles" class="btn" target="_blank">Join Our Community</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- World Section -->
+    <section class="world-section" id="world">
+        <div class="container">
+            <div class="section-title">
+                <h2>The World of Newport Maeve</h2>
+                <p>A steampunk fantasy realm where ancient magic meets industrial progress</p>
+            </div>
+            <div class="world-grid">
+                <div class="world-card">
+                    <h3>The Confederacy</h3>
+                    <p>A vast political union spanning multiple nations, bound by law and bureaucracy. The Confederacy represents order, progress, and the careful balance of power maintained through hidden networks and strategic influence.</p>
+                </div>
+                <div class="world-card">
+                    <h3>Newport Maeve</h3>
+                    <p>The crown jewel of the Confederacy—a city of brass and invention where ambition meets steel. Built at the confluence of the Zarina River and the coast, Newport Maeve stands as a beacon of progress and a testbed for the future.</p>
+                </div>
+                <div class="world-card">
+                    <h3>The One True</h3>
+                    <p>An ancient faith born from divine intervention during the demon wars. The Church of the One True wields significant power, yet mysteries remain about the true nature of the divine entities that walk among mortals.</p>
+                </div>
+                <div class="world-card">
+                    <h3>Blood Blessing</h3>
+                    <p>A supernatural gift—or curse—that grants immortality and superhuman abilities. The BloodBlessed are rare, powerful, and bound by ancient laws. They exist in the shadows, shaping history from behind the scenes.</p>
+                </div>
+                <div class="world-card">
+                    <h3>The Underground</h3>
+                    <p>A hidden network of fixers, brokers, and operatives who exist beyond the law. Where official channels fail, the Underground succeeds—swiftly, precisely, and with absolute discretion.</p>
+                </div>
+                <div class="world-card">
+                    <h3>Ironclad Consortium</h3>
+                    <p>A global network of influence spanning industry, information, and power. The Consortium operates in plain sight, a legitimate business empire that conceals far deeper ambitions and darker secrets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Character Section -->
+    <section class="character-section" id="character">
+        <div class="container">
+            <div class="section-title">
+                <h2>Miroslav Dion</h2>
+                <p>The Architect of Centuries</p>
+            </div>
+            <div class="main-character">
+                <div class="character-image">
+                    [Placeholder: miroslav-dion.jpg]
+                </div>
+                <div class="character-info">
+                    <h3>Once Human, Now BloodBlessed</h3>
+                    <p>Miroslav Dion is an immortal vampire who has walked the earth for centuries. Born as a foot soldier in a forgotten war, he was transformed by divine intervention into something far greater—and far more dangerous.</p>
+                    
+                    <div class="character-traits">
+                        <strong>Title:</strong> Owner of the Ironclad Consortium, Master of the Underground<br>
+                        <strong>Age:</strong> Appears in his 40s; actually centuries old<br>
+                        <strong>Status:</strong> Unknown to the public; feared by those who know<br>
+                        <strong>Abilities:</strong> Enhanced senses, blood control, regeneration, dominion presence
+                    </div>
+
+                    <p>Dion survived where others perished. He adapted when the world shifted. He lost everything, rebuilt, and lost it all again. What drives him is not hope or ambition—it is the stubborn instinct not to stop.</p>
+                    
+                    <p>He has shaped the Confederacy from the shadows, maintaining balance through law and hidden networks. He is a strategist, a manipulator, and a man bound by an ancient debt to forces beyond mortal comprehension.</p>
+
+                    <a href="Miroslav-Dion-water.jpg" class="btn" download>Download Character Sheet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supporting Characters Section -->
+    <section class="character-section" id="characters">
+        <div class="container">
+            <div class="section-title">
+                <h2>The Cast of Newport Maeve</h2>
+                <p>Key figures in the prequel narrative</p>
+            </div>
+            <div class="supporting-characters">
+                <div class="character-card">
+                    <h4>The Unknown Emissary</h4>
+                    <p class="character-role">OneTrue Emissary</p>
+                    <p>A mysterious divine entity with unknown origins. The Emissary exists beyond time and decay, serving purposes incomprehensible to mortal minds. Its presence bends perception and authority alike.</p>
+                    <a href="The-Entity-water.png" download>View Character Sheet</a>
+                </div>
+                <div class="character-card">
+                    <h4>The Protector</h4>
+                    <p class="character-role">OneTrue Holy Warrior</p>
+                    <p>An angel of the OneTrue faith, bound by divine duty. The Protector serves as a low-rank guardian of the Newport area, forbidden to interact with mortals or their affairs. Haunted by purpose and restraint.</p>
+                    <a href="The-Protector-water.jpg" download>View Character Sheet</a>
+                </div>
+                <div class="character-card">
+                    <h4>Aland</h4>
+                    <p class="character-role">Street Con Artist</p>
+                    <p>An orphan who has survived the streets of Newport Maeve through cunning and deception. Aland sells pity, not truth, using hand-drawn flyers and small scams to survive. He knows the city's people and their weaknesses.</p>
+                    <a href="Aland-water.jpg" download>View Character Sheet</a>
+                </div>
+                <div class="character-card">
+                    <h4>The Unnamed Bride</h4>
+                    <p class="character-role">Arranged Bride</p>
+                    <p>A young woman from a poor family, promised to a wealthy industrialist's son. Elegant yet desperate, she escaped one fate only to collide with another. Her story is one of desperation and defiance.</p>
+                    <a href="Unnamed-Bride-water.jpg" download>View Character Sheet</a>
+                </div>
+                <div class="character-card">
+                    <h4>George L'Aris</h4>
+                    <p class="character-role">Vampire Enforcer</p>
+                    <p>A BloodBlessed vampire in peak condition, serving as an enforcer for the Ironclad Consortium. George hunts those who fall to uncontrolled thirst, maintaining order within the hidden vampire community.</p>
+                    <a href="George-the-enforcer-water.jpg" download>View Character Sheet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="map">
+        <div class="container">
+            <div class="section-title">
+                <h2>The Map of Newport Maeve</h2>
+                <p>Explore the geography of the Confederacy</p>
+            </div>
+            <div class="map-container">
+                [Placeholder: map.jpg]
+            </div>
+            <p style="text-align: center; margin-top: 2rem; color: #b8860b;">
+                The world of Newport Maeve awaits exploration. Discover the districts, landmarks, and hidden corners of this dark fantasy realm.
+            </p>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community-section" id="community">
+        <div class="container">
+            <div class="section-title">
+                <h2>Join the Newport Maeve Community</h2>
+                <p>Explore the expanding universe across multiple platforms</p>
+            </div>
+            <div class="community-links">
+                <div class="community-card">
+                    <h3>🎧 Audio Story</h3>
+                    <p>Experience "A Glimpse of Centuries Past" as an immersive audio production. Listen to Miroslav Dion's origin story on YouTube.</p>
+                    <a href="https://youtu.be/gg5DZfQgrho?si=jj8f4mWiXhvvfzdV" target="_blank">Listen Now</a>
+                </div>
+                <div class="community-card">
+                    <h3>📖 Fandom Wiki</h3>
+                    <p>Dive deep into the lore with our comprehensive wiki. Explore characters, locations, and the rich history of Newport Maeve.</p>
+                    <a href="https://newport-maeve.fandom.com/wiki/Newport_Maeve_Chronicles_Wiki" target="_blank">Explore Wiki</a>
+                </div>
+                <div class="community-card">
+                    <h3>🎨 DeviantArt Gallery</h3>
+                    <p>View stunning character art and visual designs from the Newport Maeve Chronicles project. See the characters come to life.</p>
+                    <a href="https://www.deviantart.com/deant01/gallery/92908164/newport-maeve-chroncles-art" target="_blank">View Gallery</a>
+                </div>
+                <div class="community-card">
+                    <h3>👥 Facebook Community</h3>
+                    <p>Connect with fellow fans, discuss theories, and stay updated on new content and announcements for the upcoming book.</p>
+                    <a href="https://www.facebook.com/NewportMaeveChronicles" target="_blank">Join Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://youtu.be/gg5DZfQgrho?si=jj8f4mWiXhvvfzdV" target="_blank">Audio Story</a>
+                <a href="https://newport-maeve.fandom.com/wiki/Newport_Maeve_Chronicles_Wiki" target="_blank">Wiki</a>
+                <a href="https://www.deviantart.com/deant01/gallery/92908164/newport-maeve-chroncles-art" target="_blank">Art Gallery</a>
+                <a href="https://www.facebook.com/NewportMaeveChronicles" target="_blank">Facebook</a>
+            </div>
+            <p>&copy; 2026 Newport Maeve Chronicles. Created by Dean Jordanov.</p>
+            <p>A dark fantasy prequel to the upcoming Newport Maeve Chronicles book.</p>
+            <p style="font-size: 0.85rem; margin-top: 1rem; color: #666;">
+                Newport Maeve Chronicles | World of Shadows & Power
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Add scroll animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease-out';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.world-card, .character-card, .community-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
