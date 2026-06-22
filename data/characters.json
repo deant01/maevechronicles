@@ -6,7 +6,7 @@
     "image": "assets/images/miroslav-dion/miroslav-dion-sheet.webp",
     "slug": "miroslav-dion",
     "tagline": "The first of the Blood Blessed, and the last line when the dark comes calling.",
-    "bio": "Older than most nations and wealthier than several, Miroslav Dion built the Ironclad Consortium from a soldier's discipline and a predator's patience. He has outlived kings, financed empires, and buried every rival foolish enough to test him. Now an old debt and an older enemy draw him toward Newport Maeve, where the city's gleaming progress hides a hunger that feeds on civilization itself.",
+    "bio": "He was a soldier lifetimes ago, then he became a Blood Blessed Predator. He learned to control the hunger and built a unique society of special people. Now he is a Legal Mogul, pulling the strings of Underground syndicates. With his vast influence and wealth, he is the last contingency of the all-knowing One True against incoming dark threats.",
     "profile": {
       "Name": "Miroslav Dion",
       "Race": "Vampire (Blood Blessed Human)",
@@ -152,7 +152,7 @@
     "image": "assets/images/george-laris/george-laris-sheet.webp",
     "slug": "george-laris",
     "tagline": "An enforcer of the Ironclad Consortium, caught between the thirst that makes beasts and the duty that makes monsters.",
-    "bio": "George L'Aris carries out the Consortium's will in the places polite society does not look. A vampire bound to Dion's strict order, he knows the cost of the power he wields and the leash that comes with it. Loyalty keeps him sharp; thirst keeps him honest about what he is. In a city of masks, he is one of the few who admits to the monster underneath.",
+    "bio": "George L'Aris carries out the Consortium's will in the places polite society does not look. A vampire carrying silver blades to hunt those of his kind, that fail to control the Thirst. He is equiped with Diagnosis Spectacles, to see what the Blood Blessed think is hidden.",
     "profile": {
       "Name": "George L'Aris",
       "Race": "Vampire (Blood Blessed Human)",
@@ -160,15 +160,15 @@
         "Preternatural strength and speed",
         "Undetermined Lifespan",
         "Regeneration",
-        "Combat mastery"
+        "Dual Blades Combat mastery"
       ],
-      "Role": "Vampire Enforcer",
+      "Role": "Leader Enforcer",
       "Age": "213 years",
       "Hair": "Dark, curly",
       "Eyes": "Crimson Red",
       "Affiliations": [
-        "The Ironclad Consortium",
-        "The BloodBlessed"
+        "The Ironclad Enforcer Squad",
+        "The Blood Blessed"
       ],
       "Traits": [
         "Loyal",
@@ -200,7 +200,7 @@
     "image": "assets/images/aland/aland-sheet.webp",
     "slug": "aland",
     "tagline": "An orphan who learned that a hungry city will always open its hand if you give it a reason.",
-    "bio": "Newport Maeve is built on hunger, and Aland learned young how to feed it just enough to slip a hand into its pocket. A street con artist with quick wits and quicker feet, he survives on charm, nerve, and an instinct for which lies people most want to believe. The city has chewed up sharper operators than him — but few as hard to hold on to.",
+    "bio": "Newport Maeve is built on hunger, and Aland learned young how to feed it just enough to slip a hand into its pocket. He is a street con artist saved by Dion from a devil brute, then recruited by Ironclad for his 'Presentation Skills'",
     "profile": {
       "Name": "Aland",
       "Race": "Human",
@@ -249,7 +249,7 @@
     "image": "assets/images/unnamed-bride/unnamed-bride-sheet.webp",
     "slug": "unnamed-bride",
     "tagline": "Promised away in a Civic Center wedding, she escaped one fate only to collide with another.",
-    "bio": "She was arranged, promised, and paraded toward a Civic Center wedding she never chose. When she ran from that fate, the city had another waiting — as Newport Maeve always does. Her name is not yet spoken in these halls, but her choices ripple further than anyone at that altar could have guessed.",
+    "bio": "She was arranged, promised, and paraded toward a Civic Center wedding she never chose. When she ran from that fate, the city had another waiting, as Newport Maeve always does. She is almost killed by the devil brute, only to be almost 'saved' by Dion.",
     "profile": {
       "Name": "Unnamed Bride",
       "Race": "Human",
