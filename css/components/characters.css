@@ -170,3 +170,29 @@
     min-height: auto;
   }
 }
+
+/* Static crawlable character index (fallback shown when JS hasn't replaced the grid).
+   Styled so no-JS visitors and crawlers still get a tidy, on-brand list. */
+.char-index {
+  grid-column: 1 / -1;
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+.char-index li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-dim);
+}
+.char-index li:last-child { border-bottom: none; }
+.char-index a {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: var(--gold-light);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.char-index a:hover { color: var(--gold); }
