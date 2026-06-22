@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Miroslav Dion",
+    "role": "First of the BloodBlessed",
+    "quote": "Outlived kings. Shaped empires. Still standing.",
+    "image": "assets/images/miroslav-dion/miroslav-dion-sheet.webp",
+    "slug": "miroslav-dion",
+    "tagline": "The first of the BloodBlessed, and the last line when the dark comes calling.",
+    "bio": "Older than most nations and wealthier than several, Miroslav Dion built the Ironclad Consortium from a soldier's discipline and a predator's patience. He has outlived kings, financed empires, and buried every rival foolish enough to test him. Now an old debt and an older enemy draw him toward Newport Maeve, where the city's gleaming progress hides a hunger that feeds on civilization itself.",
+    "profile": {
+      "Name": "Miroslav Dion",
+      "Race": "Vampire (BloodBlessed)",
+      "Abilities": [
+        "Immortality",
+        "Preternatural strength and speed",
+        "Regeneration",
+        "Centuries of accumulated skill"
+      ],
+      "Role": "First of the BloodBlessed",
+      "Age": "Unknown — many centuries",
+      "Hair": "Dark",
+      "Eyes": "Pale, cold",
+      "Affiliations": [
+        "The Ironclad Consortium",
+        "The BloodBlessed"
+      ],
+      "Traits": [
+        "Disciplined",
+        "Calculating",
+        "Ruthless",
+        "Unbreakable will"
+      ]
+    },
+    "sheetImage": "assets/images/miroslav-dion/miroslav-dion-sheet.webp",
+    "gallery": {
+      "portrait": {
+        "label": "Portrait",
+        "image": "assets/images/miroslav-dion/miroslav-dion-portrait.webp"
+      },
+      "turnaround": {
+        "label": "Turnaround View",
+        "image": "assets/images/miroslav-dion/miroslav-dion-turnaround.webp"
+      },
+      "extra": {
+        "label": "Insignia",
+        "image": "assets/images/miroslav-dion/miroslav-dion-item1.webp"
+      }
+    }
+  },
+  {
+    "name": "The Protector",
+    "role": "Angel. OneTrue Holy Warrior.",
+    "quote": "I do not protect out of mercy. I protect because I must.",
+    "image": "assets/images/the-protector/the-protector-sheet.webp",
+    "slug": "the-protector",
+    "tagline": "An angel bound to Newport Maeve, sworn to hold the line against what claws at the world's thin places.",
+    "bio": "Where the veil between worlds wears thin, the One True sets a guardian. The Protector is that guardian for Newport Maeve — an angelic warrior who does not act from mercy but from duty, holding the city's seams against the things that would tear through. Patient, unyielding, and bound by laws older than the Confederacy itself, the Protector watches a city that does not know it is being watched.",
+    "profile": {
+      "Name": "The Protector",
+      "Race": "Angel",
+      "Abilities": [
+        "Divine strength",
+        "Immortality",
+        "Holy warfare",
+        "Sworn guardianship"
+      ],
+      "Role": "Angel. OneTrue Holy Warrior.",
+      "Age": "Unknown",
+      "Hair": "Unknown",
+      "Eyes": "Unknown",
+      "Affiliations": [
+        "The One True",
+        "Guardians of the Thin Places"
+      ],
+      "Traits": [
+        "Dutiful",
+        "Unyielding",
+        "Vigilant",
+        "Severe"
+      ]
+    },
+    "sheetImage": "assets/images/the-protector/the-protector-sheet.webp",
+    "gallery": {
+      "portrait": {
+        "label": "Portrait",
+        "image": "assets/images/the-protector/the-protector-portrait.webp"
+      },
+      "turnaround": {
+        "label": "Turnaround View",
+        "image": "assets/images/the-protector/the-protector-turnaround.webp"
+      },
+      "extra": {
+        "label": "Insignia",
+        "image": "assets/images/the-protector/the-protector-item1.webp"
+      }
+    }
+  },
+  {
+    "name": "The Unknown Emissary",
+    "role": "OneTrue Emissary",
+    "quote": "He steps through the ages as if through a quiet hall.",
+    "image": "assets/images/the-unknown-emissary/the-unknown-emissary-sheet.webp",
+    "slug": "the-unknown-emissary",
+    "tagline": "A messenger of the One True who walks through centuries as if through a quiet hall.",
+    "bio": "He arrives unannounced and leaves no trace, an emissary of the One True who moves through the ages without haste or age. He does not ask; he informs. When he speaks of what feeds on the city, even Dion listens. What he is beneath the calm and the courtesy, no one in Newport Maeve can say — and that uncertainty is, perhaps, the point.",
+    "profile": {
+      "Name": "The Unknown Emissary",
+      "Race": "Unknown",
+      "Abilities": [
+        "Passage through time",
+        "Unknown providence",
+        "Authority of the One True"
+      ],
+      "Role": "OneTrue Emissary",
+      "Age": "Unknown",
+      "Hair": "Unknown",
+      "Eyes": "Unknown",
+      "Affiliations": [
+        "The One True"
+      ],
+      "Traits": [
+        "Composed",
+        "Inscrutable",
+        "Patient",
+        "Authoritative"
+      ]
+    },
+    "sheetImage": "assets/images/the-unknown-emissary/the-unknown-emissary-sheet.webp",
+    "gallery": {
+      "portrait": {
+        "label": "Portrait",
+        "image": "assets/images/the-unknown-emissary/the-unknown-emissary-portrait.webp"
+      },
+      "turnaround": {
+        "label": "Turnaround View",
+        "image": "assets/images/the-unknown-emissary/the-unknown-emissary-turnaround.webp"
+      },
+      "extra": {
+        "label": "Sigil",
+        "image": "assets/images/the-unknown-emissary/the-unknown-emissary-item1.webp"
+      }
+    }
+  },
+  {
+    "name": "George L'Aris",
+    "role": "Vampire Enforcer",
+    "quote": "Thirst makes beasts. Duty makes monsters.",
+    "image": "assets/images/george-laris/george-laris-sheet.webp",
+    "slug": "george-laris",
+    "tagline": "An enforcer of the Ironclad Consortium, caught between the thirst that makes beasts and the duty that makes monsters.",
+    "bio": "George L'Aris carries out the Consortium's will in the places polite society does not look. A vampire bound to Dion's strict order, he knows the cost of the power he wields and the leash that comes with it. Loyalty keeps him sharp; thirst keeps him honest about what he is. In a city of masks, he is one of the few who admits to the monster underneath.",
+    "profile": {
+      "Name": "George L'Aris",
+      "Race": "Vampire (BloodBlessed)",
+      "Abilities": [
+        "Preternatural strength and speed",
+        "Immortality",
+        "Regeneration",
+        "Combat mastery"
+      ],
+      "Role": "Vampire Enforcer",
+      "Age": "Unknown",
+      "Hair": "Unknown",
+      "Eyes": "Unknown",
+      "Affiliations": [
+        "The Ironclad Consortium",
+        "The BloodBlessed"
+      ],
+      "Traits": [
+        "Loyal",
+        "Disciplined",
+        "Dangerous",
+        "Self-aware"
+      ]
+    },
+    "sheetImage": "assets/images/george-laris/george-laris-sheet.webp",
+    "gallery": {
+      "portrait": {
+        "label": "Portrait",
+        "image": "assets/images/george-laris/george-laris-portrait.webp"
+      },
+      "turnaround": {
+        "label": "Turnaround View",
+        "image": "assets/images/george-laris/george-laris-turnaround.webp"
+      },
+      "extra": {
+        "label": "Insignia",
+        "image": "assets/images/george-laris/george-laris-item1.webp"
+      }
+    }
+  },
+  {
+    "name": "Aland",
+    "role": "Orphan. Street Con Artist.",
+    "quote": "The city is built on hunger. I just give it a reason to open its hand.",
+    "image": "assets/images/aland/aland-sheet.webp",
+    "slug": "aland",
+    "tagline": "An orphan who learned that a hungry city will always open its hand if you give it a reason.",
+    "bio": "Newport Maeve is built on hunger, and Aland learned young how to feed it just enough to slip a hand into its pocket. A street con artist with quick wits and quicker feet, he survives on charm, nerve, and an instinct for which lies people most want to believe. The city has chewed up sharper operators than him — but few as hard to hold on to.",
+    "profile": {
+      "Name": "Aland",
+      "Race": "Human",
+      "Abilities": [
+        "Sleight of hand",
+        "Persuasion",
+        "Street cunning",
+        "Survival instinct"
+      ],
+      "Role": "Orphan. Street Con Artist.",
+      "Age": "Unknown",
+      "Hair": "Unknown",
+      "Eyes": "Unknown",
+      "Affiliations": [
+        "The streets of Newport Maeve",
+        "The Underground Network"
+      ],
+      "Traits": [
+        "Cunning",
+        "Charming",
+        "Resourceful",
+        "Elusive"
+      ]
+    },
+    "sheetImage": "assets/images/aland/aland-sheet.webp",
+    "gallery": {
+      "portrait": {
+        "label": "Portrait",
+        "image": "assets/images/aland/aland-portrait.webp"
+      },
+      "turnaround": {
+        "label": "Turnaround View",
+        "image": "assets/images/aland/aland-turnaround.webp"
+      },
+      "extra": {
+        "label": "Mark",
+        "image": "assets/images/aland/aland-item1.webp"
+      }
+    }
+  },
+  {
+    "name": "Unnamed Bride",
+    "role": "Arranged Bride. Civic Center Wedding.",
+    "quote": "She had escaped one fate — only to collide with another.",
+    "image": "assets/images/unnamed-bride/unnamed-bride-sheet.webp",
+    "slug": "unnamed-bride",
+    "tagline": "Promised away in a Civic Center wedding, she escaped one fate only to collide with another.",
+    "bio": "She was arranged, promised, and paraded toward a Civic Center wedding she never chose. When she ran from that fate, the city had another waiting — as Newport Maeve always does. Her name is not yet spoken in these halls, but her choices ripple further than anyone at that altar could have guessed.",
+    "profile": {
+      "Name": "Unnamed Bride",
+      "Race": "Unknown",
+      "Abilities": [
+        "Unknown"
+      ],
+      "Role": "Arranged Bride. Civic Center Wedding.",
+      "Age": "Unknown",
+      "Hair": "Unknown",
+      "Eyes": "Unknown",
+      "Affiliations": [
+        "Unknown"
+      ],
+      "Traits": [
+        "Defiant",
+        "Resourceful",
+        "Unknown"
+      ]
+    },
+    "sheetImage": "assets/images/unnamed-bride/unnamed-bride-sheet.webp",
+    "gallery": {
+      "portrait": {
+        "label": "Portrait",
+        "image": "assets/images/unnamed-bride/unnamed-bride-portrait.webp"
+      },
+      "turnaround": {
+        "label": "Turnaround View",
+        "image": "assets/images/unnamed-bride/unnamed-bride-turnaround.webp"
+      },
+      "extra": {
+        "label": "Token",
+        "image": "assets/images/unnamed-bride/unnamed-bride-item1.webp"
+      }
+    }
+  }
+]
