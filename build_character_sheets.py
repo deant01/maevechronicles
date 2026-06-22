@@ -14,6 +14,9 @@ AUTHOR = "Dean Jordanov"
 chars = json.load(open(os.path.join(ROOT, "data/characters.json"), encoding="utf-8"))
 os.makedirs(os.path.join(ROOT, "characters"), exist_ok=True)
 
+# Shared Connect section (kept in sync across all pages)
+CONNECT = open(os.path.join(ROOT, "partials/connect.html"), encoding="utf-8").read()
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
@@ -154,6 +157,8 @@ def build_page(c):
 <link rel="stylesheet" href="../css/general.css">
 <link rel="stylesheet" href="../css/typography.css">
 <link rel="stylesheet" href="../css/components/lightbox.css">
+<link rel="stylesheet" href="../css/components/connect.css">
+<link rel="stylesheet" href="../css/components/footer.css">
 <link rel="stylesheet" href="../css/components/character-sheet.css">
 </head>
 <body>
@@ -199,6 +204,8 @@ def build_page(c):
   <a href="https://newport-maeve.fandom.com/wiki/Newport_Maeve_Chronicles_Wiki" target="_blank" rel="noopener">Fandom Wiki &rarr;</a>
   <a href="../index.html#listen">Listen to the Prequel &rarr;</a>
 </nav>
+
+{CONNECT}
 
 <div class="lightbox" id="lightbox" aria-hidden="true">
   <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
