@@ -1,33 +1,34 @@
 [
   {
     "name": "Miroslav Dion",
-    "role": "First of the BloodBlessed",
+    "role": "First of the Blood Blessed",
     "quote": "Outlived kings. Shaped empires. Still standing.",
     "image": "assets/images/miroslav-dion/miroslav-dion-sheet.webp",
     "slug": "miroslav-dion",
-    "tagline": "The first of the BloodBlessed, and the last line when the dark comes calling.",
+    "tagline": "The first of the Blood Blessed, and the last line when the dark comes calling.",
     "bio": "Older than most nations and wealthier than several, Miroslav Dion built the Ironclad Consortium from a soldier's discipline and a predator's patience. He has outlived kings, financed empires, and buried every rival foolish enough to test him. Now an old debt and an older enemy draw him toward Newport Maeve, where the city's gleaming progress hides a hunger that feeds on civilization itself.",
     "profile": {
       "Name": "Miroslav Dion",
-      "Race": "Vampire (BloodBlessed)",
+      "Race": "Vampire (Blood Blessed Human)",
       "Abilities": [
-        "Immortality",
+        "Undetermined Lifespan",
         "Preternatural strength and speed",
         "Regeneration",
-        "Centuries of accumulated skill"
+        "Extensive mind and matter control over other BloodBlessed"
       ],
-      "Role": "First of the BloodBlessed",
-      "Age": "Unknown — many centuries",
-      "Hair": "Dark",
-      "Eyes": "Pale, cold",
+      "Role": "First of the Blood Blessed",
+      "Age": "Appears 40, but much older",
+      "Hair": "Dark with silver at temples",
+      "Eyes": "Crimson Red",
       "Affiliations": [
         "The Ironclad Consortium",
-        "The BloodBlessed"
+        "The Blood Blessed",
+        "The OneTrue's contingency"
       ],
       "Traits": [
         "Disciplined",
         "Calculating",
-        "Ruthless",
+        "Ruthless Strategist",
         "Unbreakable will"
       ]
     },
@@ -60,24 +61,24 @@
       "Name": "The Protector",
       "Race": "Angel",
       "Abilities": [
-        "Divine strength",
-        "Immortality",
-        "Holy warfare",
-        "Sworn guardianship"
+        "Limited, Reachargable Divine Power",
+        "Undetermined Lifespan",
+        "Flight",
+        "Invisibility"
       ],
-      "Role": "Angel. OneTrue Holy Warrior.",
+      "Role": "OneTrue Holy Warrior",
       "Age": "Unknown",
-      "Hair": "Unknown",
-      "Eyes": "Unknown",
+      "Hair": "Long, Jet-Black",
+      "Eyes": "Glowing with blue light",
       "Affiliations": [
-        "The One True",
-        "Guardians of the Thin Places"
+        "Lower Rank Holy Infantry Unit",
+        "Demonkin Interceptor"
       ],
       "Traits": [
         "Dutiful",
         "Unyielding",
         "Vigilant",
-        "Severe"
+        "Hates The Blood Blessed"
       ]
     },
     "sheetImage": "assets/images/the-protector/the-protector-sheet.webp",
@@ -104,7 +105,7 @@
     "image": "assets/images/the-unknown-emissary/the-unknown-emissary-sheet.webp",
     "slug": "the-unknown-emissary",
     "tagline": "A messenger of the One True who walks through centuries as if through a quiet hall.",
-    "bio": "He arrives unannounced and leaves no trace, an emissary of the One True who moves through the ages without haste or age. He does not ask; he informs. When he speaks of what feeds on the city, even Dion listens. What he is beneath the calm and the courtesy, no one in Newport Maeve can say — and that uncertainty is, perhaps, the point.",
+    "bio": "He arrives unannounced and leaves no trace, an emissary of the One True. Conscripted Miroslav Dion and introduced the Blood Blessing into the world of Elyssar.",
     "profile": {
       "Name": "The Unknown Emissary",
       "Race": "Unknown",
@@ -115,8 +116,8 @@
       ],
       "Role": "OneTrue Emissary",
       "Age": "Unknown",
-      "Hair": "Unknown",
-      "Eyes": "Unknown",
+      "Hair": "Golden",
+      "Eyes": "Irisles, Orange fields of energy",
       "Affiliations": [
         "The One True"
       ],
@@ -154,17 +155,17 @@
     "bio": "George L'Aris carries out the Consortium's will in the places polite society does not look. A vampire bound to Dion's strict order, he knows the cost of the power he wields and the leash that comes with it. Loyalty keeps him sharp; thirst keeps him honest about what he is. In a city of masks, he is one of the few who admits to the monster underneath.",
     "profile": {
       "Name": "George L'Aris",
-      "Race": "Vampire (BloodBlessed)",
+      "Race": "Vampire (Blood Blessed Human)",
       "Abilities": [
         "Preternatural strength and speed",
-        "Immortality",
+        "Undetermined Lifespan",
         "Regeneration",
         "Combat mastery"
       ],
       "Role": "Vampire Enforcer",
-      "Age": "Unknown",
-      "Hair": "Unknown",
-      "Eyes": "Unknown",
+      "Age": "213 years",
+      "Hair": "Dark, curly",
+      "Eyes": "Crimson Red",
       "Affiliations": [
         "The Ironclad Consortium",
         "The BloodBlessed"
@@ -172,7 +173,6 @@
       "Traits": [
         "Loyal",
         "Disciplined",
-        "Dangerous",
         "Self-aware"
       ]
     },
@@ -211,9 +211,9 @@
         "Survival instinct"
       ],
       "Role": "Orphan. Street Con Artist.",
-      "Age": "Unknown",
-      "Hair": "Unknown",
-      "Eyes": "Unknown",
+      "Age": "17 years",
+      "Hair": "Light Brown",
+      "Eyes": "Brown",
       "Affiliations": [
         "The streets of Newport Maeve",
         "The Underground Network"
@@ -252,21 +252,19 @@
     "bio": "She was arranged, promised, and paraded toward a Civic Center wedding she never chose. When she ran from that fate, the city had another waiting — as Newport Maeve always does. Her name is not yet spoken in these halls, but her choices ripple further than anyone at that altar could have guessed.",
     "profile": {
       "Name": "Unnamed Bride",
-      "Race": "Unknown",
+      "Race": "Human",
       "Abilities": [
         "Unknown"
       ],
       "Role": "Arranged Bride. Civic Center Wedding.",
-      "Age": "Unknown",
-      "Hair": "Unknown",
-      "Eyes": "Unknown",
+      "Age": "around 21 years",
+      "Hair": "Blonde",
+      "Eyes": "Blue",
       "Affiliations": [
-        "Unknown"
+        "Citizen of Newport Maeve"
       ],
       "Traits": [
-        "Defiant",
-        "Resourceful",
-        "Unknown"
+        "Defiant"
       ]
     },
     "sheetImage": "assets/images/unnamed-bride/unnamed-bride-sheet.webp",
