@@ -5,10 +5,33 @@ function createCharCard(character) {
   card.className = 'char-card';
   if (character.slug) card.href = `characters/${character.slug}.html`;
 
-  const img = document.createElement('img');
-  img.src = character.image;
-  img.alt = `${character.name} — ${character.role}, a character from ${SERIES_NAME}`;
-  img.loading = 'lazy';
+  // Portrait frame (tall). Tries the portrait image; if it isn't uploaded yet,
+  // falls back to a styled "Coming soon" frame so the card never looks broken.
+  const frame = document.createElement('div');
+  frame.className = 'char-frame';
+
+  const portrait = character.portrait || character.image;
+  if (portrait) {
+    const img = document.createElement('img');
+    img.src = portrait;
+    img.alt = `${character.name} — ${character.role}, a character from ${SERIES_NAME}`;
+    img.loading = 'lazy';
+    img.addEventListener('error', () => {
+      img.remove();
+      frame.classList.add('is-empty');
+      const ph = document.createElement('span');
+      ph.className = 'frame-empty';
+      ph.textContent = 'Coming soon';
+      frame.appendChild(ph);
+    });
+    frame.appendChild(img);
+  } else {
+    frame.classList.add('is-empty');
+    const ph = document.createElement('span');
+    ph.className = 'frame-empty';
+    ph.textContent = 'Coming soon';
+    frame.appendChild(ph);
+  }
 
   const overlay = document.createElement('div');
   overlay.className = 'char-card-overlay';
@@ -26,7 +49,7 @@ function createCharCard(character) {
   quote.textContent = character.quote;
 
   overlay.append(name, role, quote);
-  card.append(img, overlay);
+  card.append(frame, overlay);
   return card;
 }
 

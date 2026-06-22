@@ -45,7 +45,8 @@
         "label": "Insignia",
         "image": "assets/images/miroslav-dion/miroslav-dion-item1.webp"
       }
-    }
+    },
+    "portrait": "assets/images/miroslav-dion/miroslav-dion-portrait.webp"
   },
   {
     "name": "The Protector",
@@ -93,7 +94,8 @@
         "label": "Insignia",
         "image": "assets/images/the-protector/the-protector-item1.webp"
       }
-    }
+    },
+    "portrait": "assets/images/the-protector/the-protector-portrait.webp"
   },
   {
     "name": "The Unknown Emissary",
@@ -139,7 +141,8 @@
         "label": "Sigil",
         "image": "assets/images/the-unknown-emissary/the-unknown-emissary-item1.webp"
       }
-    }
+    },
+    "portrait": "assets/images/the-unknown-emissary/the-unknown-emissary-portrait.webp"
   },
   {
     "name": "George L'Aris",
@@ -187,7 +190,8 @@
         "label": "Insignia",
         "image": "assets/images/george-laris/george-laris-item1.webp"
       }
-    }
+    },
+    "portrait": "assets/images/george-laris/george-laris-portrait.webp"
   },
   {
     "name": "Aland",
@@ -235,7 +239,8 @@
         "label": "Mark",
         "image": "assets/images/aland/aland-item1.webp"
       }
-    }
+    },
+    "portrait": "assets/images/aland/aland-portrait.webp"
   },
   {
     "name": "Unnamed Bride",
@@ -278,6 +283,7 @@
         "label": "Token",
         "image": "assets/images/unnamed-bride/unnamed-bride-item1.webp"
       }
-    }
+    },
+    "portrait": "assets/images/unnamed-bride/unnamed-bride-portrait.webp"
   }
 ]
