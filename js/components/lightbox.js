@@ -23,9 +23,9 @@ export function initLightbox() {
   // Character cards now navigate to their dedicated sheet pages (anchor href),
   // so they are intentionally not wired to the lightbox here.
 
-  document.querySelectorAll('.map-container img').forEach(img => {
-    addEvent(img, 'click', () => openLightbox(img.src, img.alt));
-  });
+  // The homepage map now links to the city page (city.html) instead of opening
+  // a lightbox. The full-map lightbox lives on the city page itself.
+  // (Lightbox kept initialized here in case other elements use it later.)
 
   addEvent(lb, 'click', closeLightbox);
   addEvent(lbImg, 'click', (e) => e.stopPropagation());
